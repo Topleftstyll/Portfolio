@@ -17,7 +17,8 @@ a {
 */
 
 .homelink {
-	float: left;
+	position: absolute;
+	right: 85%;
 	color: black;
 	text-decoration: none;
 }
@@ -106,7 +107,7 @@ a {
 .circleimgaboutme {
 	float: left;
 	border-radius: 50%;
-	border: 3px solid white;
+	border: 3px solid black;
 	width: 256px; 
 	height: 256px;
 	margin-right: 20px;
@@ -115,16 +116,6 @@ a {
 /*
 	css for lost box page
 */
-
-.lostbox-nav {
-	color: black;
-	text-decoration: none;
-}
-
-.lostbox-nav:hover {
-	color: black;
-	text-decoration: underline;
-}
 
 #lostboxmaindiv {
 	border: 5px solid black;
@@ -138,4 +129,14 @@ a {
 #subpagebody {
 	padding-top: 50px;
 	text-align: center;
+}
+
+/*
+	for when the screen gets to a certain size
+*/
+
+@media (max-width: 800px) {
+	.homelink {
+		right: 80%;
+	}
 }
