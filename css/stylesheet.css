@@ -16,11 +16,6 @@ a {
 	css for navigation
 */
 
-.navbar {
-	position: absolute;
-	float: left;
-}
-
 .homelink {
 	float: left;
 	color: black;
@@ -70,19 +65,25 @@ a {
 	height: 256px;
 }
 
+#circlerow {
+	/* incase i need this */
+}
+
 #circlealignment {
 	text-align: center;
 }
 
-.title {
-	text-align: center;
-	padding-bottom: 20px;
+#indextitle {
+	font-size: 50px;
 }
 
-#indextitle {
-	padding: 50px;
-	color: #008e02;
-	text-decoration: underline;
+#indexsubtitle {
+	font-size: 25px;
+}
+
+#titlediv {
+	text-align: center;
+	margin: 50px;
 }
 
 /*
